@@ -1,0 +1,18 @@
+.big-gap{
+    margin-top:100px;
+}
+
+.event-section-bg {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 60px 0;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.tab-pane.dymny {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.3s ease;
+}

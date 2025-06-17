@@ -1,0 +1,375 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+.homePage ul,
+.homePage li {
+    color: white !important; 
+}
+.contact-section {
+    background-color: whitesmoke;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.contact-form-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0;
+    color: white;
+}
+
+.form-container {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-form-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+    .contact-form form .form-row {
+        margin-bottom: 15px;
+    }
+
+    .contact-form form input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        margin-right: 10px;
+    }
+
+    .contact-form form .form-check {
+        margin-top: 15px;
+        color: #ddd;
+    }
+
+.section-header {
+    position: relative;
+    text-align: start;
+    margin: 60px 0;
+  
+    background-color: whitesmoke;
+  
+}
+
+    .section-header h2 {
+        position: relative;
+        font-size: 4rem;
+        color: #dc3545; /* Czerwony kolor */
+        text-align: start;
+     
+        background-color: whitesmoke;
+        font-family: Calibri;
+        font-style: initial;
+    }
+
+.services-section {
+    background-color: transparent;
+    padding: 3rem 0;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.service-card {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .service-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-card h3 {
+        color: #dc3545; /* Czerwony kolor */
+        margin-bottom: 15px;
+    }
+
+    .service-card p {
+        color: #555;
+    }
+
+.cta-btn {
+    background-color: #dc3545; /* Czerwony kolor */
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+    .cta-btn:hover {
+        background-color: #c82333;
+        cursor: pointer;
+    }
+
+.cta-section {
+    margin-top: 50px;
+}
+
+    .cta-section h2 {
+        color: #dc3545; /* Czerwony kolor */
+        font-size: 2rem;
+    }
+
+.cta-btn {
+    margin-left: 10px;
+}
+
+.pricing-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3rem 0;
+}
+
+    .pricing-section h2 {
+        color: #dc3545; /* Czerwony kolor */
+        font-size: 2rem;
+    }
+
+.about-section {
+    background-color: transparent;
+    padding: 50px 0;
+    color: #fff;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+    .about-section ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+        .about-section ul li {
+            color: white; /* Biały tekst w li */
+        }
+
+.business-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+}
+
+.login-modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+    .login-modal .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+.background-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+.biznes-section {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+    .biznes-section .section-header h2 {
+        font-family: 'Poppins', sans-serif;
+        color: #2F4F4F;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .biznes-section .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 40px 0;
+    }
+
+    .biznes-section .about-section h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .biznes-section .about-section p {
+        font-family: 'Roboto', sans-serif;
+        color: #E0E0E0;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .biznes-section .about-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .biznes-section .about-section ul li {
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+    .biznes-section .cta-btn {
+        background-color: #E94E77;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        padding: 12px 30px;
+        border-radius: 30px;
+        transition: background-color 0.3s;
+    }
+
+        .biznes-section .cta-btn:hover {
+            background-color: #d84d6c;
+        }
+
+.kontakt-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.kontakt-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.kontakt-background {
+    background-image: url('/image/ratownik.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    color: white;
+}
+
+    .kontakt-background .overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+.kontakt-content {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 50px 40px;
+    backdrop-filter: blur(5px);
+    max-width: 900px;
+    text-align: center;
+    color: white;
+}
+
+.kontakt-subtitle {
+    color: #ffdee4;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.kontakt-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.kontakt-link {
+    color: #fd0d6e;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.kontakt-button {
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #fd0d6e;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+﻿.big-gap{
+    margin-bottom: 100px;
+}
+
+
+.kurs-container {
+    max-width: 1100px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.kurs-tabs .nav-link {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+    .kurs-tabs .nav-link:hover {
+        background-color: #e9ecef;
+    }
+
+    .kurs-tabs .nav-link.active {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+
+
+.kurs-form-container {
+    background-color: #f4f6f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.kurs-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.kurs-form-group {
+    flex: 1;
+}
+
+.kurs-submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .kurs-submit-btn:hover {
+        background-color: #0056b3;
+    }
+
+@media (max-width: 768px) {
+    .kurs-form-row {
+        flex-direction: column;
+    }
+
+    .kurs-form-group {
+        flex: 1 100%;
+    }
+}
+
+.kurs-form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+    .kurs-form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+
+.kurs-form-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}}

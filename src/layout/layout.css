@@ -1,0 +1,48 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+.section {
+    scroll-margin-top: 80px; 
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1040;
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+
+.sidebar-expanded {
+    width: 240px;
+}
+
+
+.sidebar-collapsed {
+    width: 60px;
+    overflow: hidden;
+}
+
+
+    .sidebar-collapsed .text-white {
+        display: none;
+    }
+
+@media (max-width: 767px) {
+    .sidebar-collapsed {
+        width: 60px;
+    }
+
+        .sidebar-collapsed .text-white {
+            display: none;
+        }
+}
+
+.highlight {
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+}

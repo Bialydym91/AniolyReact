@@ -1,0 +1,25 @@
+﻿.custom-tabs .nav-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: none; 
+}
+
+.custom-tabs .nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.custom-tabs .nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    .custom-tabs .nav-link.active {
+        background-color: #f8f9fa;
+        color: #dc3545; 
+        border-radius: 5px;
+    }
+.big-gap {
+    margin-top: 100px;
+}
